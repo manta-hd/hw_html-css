@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма регистрации</title>
+    <link rel="stylesheet" href="styles.css/styles.css">
 </head>
 
 <body>
     <main>
         <section>
             <h1>Регистрация</h1>
-            <p>Уже есть аккаунт? <a href="">Войти</a> </p>
+            <p>Уже есть аккаунт? <a href="" class="heroLink">Войти</a> </p>
             <form action="">
                 <div>
                     <input type="text" name="company" placeholder="Название компании" />
@@ -24,8 +25,8 @@
                     <input type="email" name="email" placeholder="E-mail" required />
                 </div>
                 <button>Зарегистрироваться</button>
-                <div>
-                    <label for="terms">Я прочитал и принимаю <a href="">Условия использования</a> </label>
+                <div class="divCheck">
+                    <label for="terms">Я прочитал и принимаю <a href="" class="link">Условия использования</a> </label>
                     <input type="checkbox" name="terms" id="terms" required />
                 </div>
             </form>
